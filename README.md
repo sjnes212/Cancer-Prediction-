@@ -34,3 +34,13 @@ Usage
 - python app/main.py
 
 Access the web application at http://localhost:5000.
+
+****EXAMPLES****
+
+****Cancer Detected (Malignant)****
+
+![Screenshot (42)](https://github.com/user-attachments/assets/74d1e5ed-d3d3-417c-b6e7-a3c932fe82a2)
+
+****No Cancer (Benign)****
+
+![Screenshot (43)](https://github.com/user-attachments/assets/7a694e08-ea23-4b72-816d-bfc4f836fa02)
