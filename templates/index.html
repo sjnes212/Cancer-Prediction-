@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Diagnosis</title>
+</head>
+<body>
+    <h1>Cancer Diagnosis by ID</h1>
+    <form action="/predict" method="POST">
+        <label for="id">Enter Patient ID:</label><br>
+        <input type="text" id="id" name="id" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if result %}
+        <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
